@@ -1,0 +1,134 @@
+page-listing {
+    .search{
+        float : right;
+        padding: 5px 10px;
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        margin-left: 540px;
+        bottom: 0px; 
+        font-size: 25px;
+    }
+    /*.s1 icon icon-md ion-md-search{
+        background-color: #FFFFFF;
+    }*/
+    .content-md{
+        color:#FFFFFF;
+    }
+    .cart{
+        float: right;
+        padding: 5px 10px;
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        margin-left: 580px;
+        bottom: 0px; 
+        font-size: 25px;
+
+    }
+    .back{
+        float: left;
+        padding: 5px 10px;
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        margin-left: 10px;
+       // z-index: 99;
+        bottom: 0px; 
+        font-size: 20px;
+
+    }
+    .img2{
+        position:relative;
+        background-color: #000;
+        height: 230px;
+      //  background:rgba(0,0,0,0.8);
+      // opacity: 0.5;
+
+    }
+    .img2 img{
+        opacity: 0.5;
+    }
+    .segment-md .segment-button.segment-button.segment-activated{
+        border-color: red;
+        color:#000;
+    }
+    .segment-md .segment-button{
+        border-color:#FFF;
+        color:#000;
+
+    }
+    .img1{
+        position:relative;
+    }
+    .title1{
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        margin-left: 10px;
+        z-index: 99;
+        bottom: 0px; 
+        color: #000;
+        //font-weight: bold;
+        //opacity: 0.5;
+       
+    }
+    .title2{
+        width: 100%;
+        height: 35px;
+        position: absolute;
+        margin-left: 10px;
+        z-index: 99;
+        bottom: 0px; 
+        color: #000;
+        font-size: 8px;
+      
+       
+    }
+    .title3{
+        width: 100%;
+        height: 25px;
+        position: absolute;
+        margin-left: 10px;
+        z-index: 99;
+        bottom: 0px; 
+        color: #000;
+        font-size: 8px;
+       
+       
+    }    
+    
+    .check{
+        height: 35px;
+        position: absolute;
+        margin-left: 270px;
+        z-index: 99;
+        bottom: 0px; 
+        text-align: end;
+       
+    }
+    .filter{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        font-size: 17px; 
+        background-color: rgb(236, 41, 41);
+        text-align: center;
+        color: #fff;
+
+    }
+    .sort{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(236, 41, 41);
+        position: absolute;
+        font-size: 17px;
+        color: #fff;
+       
+       
+    }
+   
+ 
+    
+}
