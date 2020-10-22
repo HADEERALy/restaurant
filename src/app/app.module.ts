@@ -13,6 +13,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DataProvider } from '../providers/data/data';
 import { HttpClientModule} from '@angular/common/http';
 import { SplashPage } from '../pages/splash/splash';
+import { BoardingComponent } from '../pages/boarding/boarding';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SplashPage } from '../pages/splash/splash';
     HomePage,
     ListPage,
     ListingPage,
-    SplashPage
+    SplashPage,
+    BoardingComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { SplashPage } from '../pages/splash/splash';
     HomePage,
     ListPage,
     ListingPage,
-    SplashPage
+    SplashPage,
+    BoardingComponent
   ],
   providers: [
     StatusBar,

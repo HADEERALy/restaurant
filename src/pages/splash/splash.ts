@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { BoardingComponent } from '../boarding/boarding';
 
 /**
  * Generated class for the SplashPage page.
